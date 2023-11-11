@@ -1,0 +1,134 @@
+@import url('https://fonts.cdnfonts.com/css/pokemon-solid');
+
+:root {
+  --carta1: #fac;
+  --carta2: #ddccaa;
+  --carta1front: url(../img/Tabitha/Tabitha-Ahri-Card.png);
+  --carta3: #54a29e;
+  --carta4: #a79d66;
+  --carta3front: url(../img/TsuTabitha.png);
+  --carta5: #efb2fb;
+  --carta6: #acc6f8;
+  --carta5front: url(../img/Tabitha/Tabitha-Dentista-Card.png);
+  --carta7: #efb2fb;
+  --carta8: #acc6f8;
+  --carta7front: url(../img/Tabitha/Tabitha-Modelo-Card.png);
+}
+
+
+.card.carta1 {
+  --color1: var(--carta1);
+  --color2: var(--carta2);
+  --front: var(--carta1front);
+
+}
+
+.card.carta3 {
+  --color1: var(--carta3);
+  --color2: var(--carta4);
+  --front: var(--carta3front);
+}
+
+.card.carta5 {
+  --color1: var(--carta3);
+  --color2: var(--carta4);
+  --front: var(--carta5front);
+}
+
+.card.carta7 {
+  --color1: var(--carta3);
+  --color2: var(--carta4);
+  --front: var(--carta7front);
+}
+
+
+.card {
+  position: relative;
+  width: 300px;
+  /* Largura da carta */
+  height: 420px;
+  /* Altura da carta */
+  background-color: #fff;
+  border: 1px solid #000;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  font-family: 'Pokemon Solid', sans-serif;
+  color: #000;
+}
+
+.card-art {
+  flex: 2;
+  /* A imagem ocupa 2/5 da altura da carta */
+  background-image: url('sua-imagem-full-art.jpg');
+  background-size: cover;
+  background-position: center;
+}
+
+.card-info {
+  flex: 3;
+  /* As informações ocupam 3/5 da altura da carta */
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  color: #000;
+}
+
+.card-title {
+  font-size: 20px;
+  margin: 0;
+  text-align: center;
+  font-family: 'Pokemon Solid', sans-serif;
+  color: #000;
+}
+
+.card-stats {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  font-family: 'Pokemon Solid', sans-serif;
+  color: #000;
+}
+
+.card-stats li {
+  font-size: 16px;
+  margin: 5px 0;
+  font-family: 'Pokemon Solid', sans-serif;
+  color: #000;
+}
+
+.card-description {
+  font-size: 14px;
+  text-align: center;
+  font-family: 'Pokemon Solid', sans-serif;
+  color: #000;
+}
+
+
+
+#full-art-card {
+  position: relative;
+}
+
+#full-art-card::before {
+  content: "";
+  background-image: url(../img/6297cb6a28ba56999802da357a4895a6.gif);
+  background-position: center;
+  background-size: cover;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  opacity: 0.8;
+  /* Ajuste o valor para a transparência desejada (0 a 1) */
+}
+
+
+h1 {
+
+  font-family: 'Pokemon Solid', sans-serif;
+  color: #000;
+}

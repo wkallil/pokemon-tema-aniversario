@@ -1,0 +1,107 @@
+/* Estilos gerais */
+* {
+    margin: 0;
+    
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+/* Estilos para o header */
+header {
+    text-align: center;
+    position: relative;
+    background-image: url(../img/aa091e23981b41045cbc7b7e7ddebec65bfc269ar4-626-313_00.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    max-width: 100%;
+    padding-top: 50px;
+}
+
+
+
+.pokemon-title {
+    display: block;
+    margin: 0 auto;
+    /* Centraliza a imagem horizontalmente */
+    width: 50vw;
+    height: 10vw;
+}
+
+
+
+.lapras-andando {
+    position: relative;
+    bottom: 0 auto;
+    animation: moveLeftAndRight 5s linear infinite alternate;
+    /* Adiciona uma animação de movimento */
+    transform: scaleX(-1);
+    width: 10vw;
+    /* Inverte a imagem horizontalmente */
+    
+}
+
+@keyframes moveLeftAndRight {
+    0% {
+        left: -40%;
+        /* Começa da direita */
+
+    }
+
+    100% {
+        left: 40%;
+        /* Termina na esquerda */
+        
+    }
+
+
+}
+
+
+nav {
+    background-color: #333;
+    color: #fff;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    padding: 0;
+}
+
+nav li {
+    margin: 10px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+    transition: color 0.3s;
+    /* Transição suave da cor do texto */
+}
+
+/* Adicionando estilo de hover */
+nav a:hover {
+    color: #ff5733;
+    /* Altere a cor desejada para o efeito de hover */
+}
+
+/* Estilos para cada seção */
+section {
+    padding: 20px;
+}
+
+#mini-card {
+    background-color: #f0f0f0;
+}
+
+#full-art-card {
+    background-color: #d0d0d0;
+}
+
+#guess-who {
+    background-color: #b0b0b0;
+}

@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/texto-tres.css">
+    <link href="https://fonts.cdnfonts.com/css/pokemon-solid" rel="stylesheet">
+    <title>Texto Três</title>
+</head>
+
+<body>
+    <header id="home">
+        <img src="https://fontmeme.com/permalink/231102/0974d985972a7a6b4c376bf5c1a0a188.png" alt="fonte-de-pokemon"
+            class="pokemon-title" border="0">
+    </header>
+
+    <main class="conteudoprincipal">
+        <div class="textos">
+            <p class="texto-principal"> Hoje é dia de festa,<br>
+                É aniversário de Tabitha,<br>
+                Minha amiga linda,<br>
+                Que eu amo de paixão.
+                
+                <br>
+                <br>
+                
+                Você é como a Nezuko,<br>
+                Linda e poderosa,<br>
+                Mas também gentil,<br>
+                Sempre pronta a ajudar.
+                
+                <br>
+                <br>
+                
+                É como a Hermione,<br>
+                Inteligente e perspicaz,<br>
+                Sempre com uma resposta,<br>
+                E pronta pra resolver qualquer mistério.
+                
+                <br>
+                <br>
+                
+                É como a Tsunade,<br>
+                Forte e determinada,<br>
+                Nunca desiste dos sonhos,<br>
+                E sempre luta pelo que acredita.
+                
+                <br>
+                <br>
+                
+                Você é uma verdadeira kunoichi,<br>
+                Com um coração de ouro,<br>
+                É uma inspiração pra todos,<br>
+                E eu tenho muito orgulho de você.
+                
+                <br>
+                <br>
+                
+                Tabitha, você é a melhor amiga,<br>
+                Que alguém poderia ter,<br>
+                E eu sou muito feliz,<br>
+                Por ter você na minha vida.
+                
+                <br>
+                <br>
+                
+                Feliz aniversário, lindona,<br>
+                Que você tenha muitos anos de vida,<br>
+                E que continue sendo sempre essa pessoa incrível,<br>
+                Que me faz tão feliz.
+        </div>
+
+
+
+        
+        
+    </main>
+    <div class="texto-passar">
+        <div class="texto-anterior">
+            <a href="./texto-dois.html"><img src="../img/antes.jpg" alt="seta-anteior"></a>
+        </div>
+        <div class="texto-prox">
+            <a href="./texto-quatro.html"><img src="../img/proximo.png" alt="seta-proximo"></a>
+        </div>
+    </div>
+    <footer class="final">
+    </footer>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            var imgElement = document.querySelector('.pokemon-title');
+    
+            imgElement.addEventListener('click', function () {
+                window.location.href = '../index.html';
+            });
+    
+            imgElement.addEventListener('mouseover', function () {
+                imgElement.style.cursor = 'pointer';
+            });
+    
+            imgElement.addEventListener('mouseout', function () {
+                imgElement.style.cursor = 'auto';
+            });
+        });
+    </script>
+</body>
+
+</html>

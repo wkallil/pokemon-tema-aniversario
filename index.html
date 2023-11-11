@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/mini-card.css">
+    <link rel="stylesheet" href="./css/full-card.css">
+    <link href="https://fonts.cdnfonts.com/css/pokemon-solid" rel="stylesheet">
+    <link rel="stylesheet" href="./css/guess-who.css">
+    <title>Parabéns Tabitha</title>
+</head>
+
+<body>
+    <header id="home">
+        <a href="#"><img src="https://fontmeme.com/permalink/231102/0974d985972a7a6b4c376bf5c1a0a188.png" alt="fonte-de-pokemon"
+            class="pokemon-title" border="0"></a>
+
+        <img src="./img/lapras.gif" class="lapras-andando" alt="lapras-gif-andando">
+
+    </header>
+    <nav>
+        <ul>
+            <li><a href="#mini-card">Card TCG</a></li>
+            <li><a href="#full-art-card">Card Full Art</a></li>
+            <li><a href="#guess-who">Quem é esse Pokémon?</a></li>
+        </ul>
+    </nav>
+    <section id="mini-card">
+        <main id=app>
+            <h1>Muitos Anos de Vida e Sucesso Sempre!</h1>
+
+            <section class="cards">
+                <div class="card minicarta1 animated"></div>
+                <div class="card minicarta3 animated"></div>
+                <div class="card minicarta5 animated"></div>
+                <div class="card minicarta7 animated"></div>
+            </section>
+            <style class="hover"></style>
+        </main>
+    </section>
+
+
+    <section id="full-art-card">
+        <main id=app>
+            <h1 id="texto-full-art">Clique em uma carta para ler o texto</h1>
+
+            <section class="cards">
+                <a href="./html/texto-um.html"><div class="card carta1 animated"></div></a>
+                <a href="./html/texto-dois.html"><div class="card carta3 animated"></div></a>
+                <a href="./html/texto-tres.html"><div class="card carta5 animated"></div></a>
+                <a href="./html/texto-quatro.html"><div class="card carta7 animated"></div></a>
+            </section>
+            <style class="hover"></style>
+        </main>
+    </section>
+
+
+    <section id="guess-who">
+        <div class="container">
+            <h1 class="page-title">
+                Qual é essa Tabitha?
+            </h1>
+            <div class="pokedex">
+                <img id="imagem"
+                    src="./img/Tabitha/silhueta-modelo.jpg"
+                    class="poke1" alt="imagem inicial de um pokemon">
+            </div>
+        </div>
+        
+        <div class="resposta">
+            <h2 id="resultado"><br></h2>
+            <form>
+                <input type="text" id="opcao" placeholder="Digite o nome do Pokémon...">
+                <button type="button" class="enviar" onclick="descobrir()"> Descobrir </button>
+                <button type="button" class="enviar" onclick="novoJogo()"> Jogar Novamente </button>
+            </form>
+        </div>
+    </section>
+
+    <section id="fim">
+        <a href="#home"><img id="topo-img" src="./img/topo.png" alt=""></a>
+    </section>
+    <script src="./js/guess-who.js"></script>
+    <script src="./js/mini-card.js"></script>
+
+</body>
+
+</html>

@@ -1,0 +1,137 @@
+#guess-who {
+    font-family: 'Copperplate', Fantasy;
+    min-height: 600px;
+    background-image: url('https://i.pinimg.com/originals/df/4e/8b/df4e8ba28f912bf9cdf9fa0dfc196411.png');
+    background-size: cover;
+    background-position: center top;
+    background-repeat: no-repeat;
+    padding: 0px;
+    margin: 0px;
+}
+
+.container {
+    text-align: center;
+    padding: 20px;
+    height: 800px;
+    
+}
+
+.page-title {
+    color: #ffffff;
+    font-size: 60px;
+    margin: 0 0 5px;
+    
+}
+
+
+
+.pokedex {
+    width: 350px;
+    height: 350px;
+    top: 70px;
+    right: 100px;
+    background-color: white;
+    margin: 0 150px;
+    position: relative;
+    border-radius: 10px;
+    box-shadow: 10px 10px;
+}
+
+.poke1 {
+    padding-top: 2vw;
+    width: 280px;
+    height: 290px;
+    margin: 0 auto;
+}
+
+.resposta {
+    position: absolute;
+    background-color: white;
+    top: 45%;
+    /* Defina a posição vertical desejada */
+    left: 50%;
+    /* Defina a posição horizontal desejada */
+    transform: translate(-50%, -50%);
+    /* Para centralizar a seção */
+    width: 700px;
+    height: 200px;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 10px 10px;
+    margin-left: 20vw;
+    color: #515df0;
+    
+}
+
+h2 {
+    position: relative;
+    font-size: 100px;
+    margin: auto;
+    top: 50px;
+    text-shadow: 2px 5px #8ac4db;
+
+
+}
+
+input[type=text] {
+    position: relative;
+    width: 90%;
+    height: 50px;
+    top: 110px;
+    border-radius: 5px;
+    outline: 0;
+    padding: 12px 20px;
+    margin: 20px 0;
+    box-sizing: border-box;
+}
+
+input[type=text]:focus {
+    box-shadow: 0 0 0 0;
+    outline: none;
+}
+
+.enviar {
+    position: relative;
+    width: 25%;
+    height: 40px;
+    top: 120px;
+    right: 20px;
+    border-radius: 5px;
+    font-size: 20px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: #fff;
+    background-color: #6b72d6;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 9px #999;
+}
+
+.enviar:hover {
+    background-color: #515df0;
+}
+
+.enviar:active {
+    background-color: #515df0;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+}
+
+.alura-logo {
+    width: 40px;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+
+#guess-who {
+    position: relative;
+    /* Seus estilos atuais para esta seção */
+}
+
+#topo-img {
+    width: 50px;
+    height: auto
+}

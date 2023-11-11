@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/texto-dois.css">
+    <link href="https://fonts.cdnfonts.com/css/pokemon-solid" rel="stylesheet">
+    <title>Texto Dois</title>
+</head>
+
+<body>
+    <header id="home">
+        <img src="https://fontmeme.com/permalink/231102/0974d985972a7a6b4c376bf5c1a0a188.png" alt="fonte-de-pokemon"
+            class="pokemon-title" border="0">
+    </header>
+
+    <main class="conteudoprincipal">
+        <div class="textos">
+            <p class="texto-principal"> Meu coração se enche de gratidão por ter uma
+                amiga tão incrível como você. Tsunade, a personagem do Naruto, possui algumas características
+                que me fazem pensar em tu. A força, a determinação e até mesmo o estresse ocasional que ela
+                demonstra em suas jornadas são qualidades que encontro em tu, de uma forma única e admirável.
+                <br>
+                <br>
+                Assim como ela, você é uma pessoa incrivelmente forte, Tsu. Não apenas fisicamente, mas também
+                emocionalmente. Você enfrenta os desafios da vida com coragem, sempre dando o seu melhor, e isso é
+                inspirador para todos ao seu redor. Sua capacidade de superar obstáculos e manter a cabeça erguida é
+                foda, e você é um exemplo de perseverança.
+                <br>
+                <br>
+                Além disso, seu companheirismo é inigualável. Assim como Tsunade, que sempre cuida de seus amigos e
+                protege a vila de Konoha, você está sempre lá para apoiar e ajudar aqueles que ama. Sua generosidade,
+                lealdade e amor pelos seus amigos são verdadeiramente notáveis, e tenho a sorte de tê-la como amiga.
+                <br>
+                <br>
+                Claro, não posso esquecer de mencionar a relação entre Tsunade e o saquê. Embora você não seja
+                exatamente uma grande apreciadora de bebidas alcoólicas, tenho fé que o apelido "Tsu" fará que um dia
+                você beba comigo, para poder honrar como te chamo. Talvez esse dia chegue mais cedo ou mais
+                tarde, mas o que importa é que teremos muitas histórias para compartilhar quando esse momento chegar.
+                <br>
+                <br>
+                Tsu, você é verdadeiramente especial, e estou imensamente grato por ter uma amiga como você em minha
+                vida. Continue sendo a pessoa incrível que é, inspirando todos nós com sua força, determinação,
+                companheirismo. Feliz aniversário!
+            </p>
+            <br>
+            <br>
+        </div>
+
+
+
+
+
+    </main>
+    <div class="texto-passar">
+        <div class="texto-anterior">
+            <a href="./texto-um.html"><img src="../img/antes.jpg" alt="seta-anteior"></a>
+        </div>
+        <div class="texto-prox">
+            <a href="./texto-tres.html"><img src="../img/proximo.png" alt="seta-proximo"></a>
+        </div>
+    </div>
+    <footer class="final">
+    </footer>
+
+
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            var imgElement = document.querySelector('.pokemon-title');
+    
+            imgElement.addEventListener('click', function () {
+                window.location.href = '../index.html';
+            });
+    
+            imgElement.addEventListener('mouseover', function () {
+                imgElement.style.cursor = 'pointer';
+            });
+    
+            imgElement.addEventListener('mouseout', function () {
+                imgElement.style.cursor = 'auto';
+            });
+        });
+    </script>
+</body>
+
+</html>

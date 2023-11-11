@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/textos.css">
+    <link href="https://fonts.cdnfonts.com/css/pokemon-solid" rel="stylesheet">
+    <title>Texto Um</title>
+</head>
+
+<body>
+    <header id="home">
+        <img src="https://fontmeme.com/permalink/231102/0974d985972a7a6b4c376bf5c1a0a188.png" alt="fonte-de-pokemon"
+            class="pokemon-title" border="0">
+    </header>
+
+    <main class="conteudoprincipal">
+        <div class="textos">
+            <p class="texto-principal"> Hoje é o dia em que você atinge um novo nível de evolução na sua jornada da
+                vida. Parabéns por se tornar uma mestre na arte de viver! Assim como um Charizard voando pelos céus, você
+                tem voado alto em todas as suas conquistas. 
+                <br>
+                <br>
+                Neste dia especial, que seu caminho seja tão brilhante quanto a Pedra da Lua e tão sólido quanto um
+                Onix. Lembre-se, assim como um Eevee tem várias evoluções possíveis, você também tem um mundo inteiro de
+                possibilidades à sua frente. 
+                <br>
+                <br>
+                Que sua determinação seja tão firme quanto um Graveler e que sua alegria seja tão
+                contagiante quanto a risada do Pikachu. Afinal, a vida é como um jogo de cartas, e você tem todas as
+                cartas na mão para ser o campeão. 
+                <br>
+                <br>
+                Que os desafios que aparecerem no seu caminho sejam apenas como um encontro com um Pokémon selvagem, uma
+                oportunidade para mostrar seu talento. E lembre-se, assim como Ash sempre conta com a
+                amizade de seus Pokémon, você tem amigos e familiares que sempre estarão ao seu lado. 
+                <br>
+                <br>
+                Que seu futuro seja tão brilhante quanto um Mega Rayquaza e que você continue a ser a
+                treinadora lendário que é. Feliz aniversário, Tabitha! 
+            </p>
+            <br>
+            <br>
+        </div>
+
+
+
+        
+        
+    </main>
+    <div class="texto-passar">
+        <div class="texto-anterior">
+            <a href="./texto-quatro.html"><img src="../img/antes.jpg" alt="seta-anteior"></a>
+        </div>
+        <div class="texto-prox">
+            <a href="./texto-dois.html"><img src="../img/proximo.png" alt="seta-proximo"></a>
+        </div>
+    </div>
+    <footer class="final">
+    </footer>
+</body>
+
+<script>
+    document.addEventListener('DOMContentLoaded', function () {
+        var imgElement = document.querySelector('.pokemon-title');
+
+        imgElement.addEventListener('click', function () {
+            window.location.href = '../index.html';
+        });
+
+        imgElement.addEventListener('mouseover', function () {
+            imgElement.style.cursor = 'pointer';
+        });
+
+        imgElement.addEventListener('mouseout', function () {
+            imgElement.style.cursor = 'auto';
+        });
+    });
+</script>
+</html>
